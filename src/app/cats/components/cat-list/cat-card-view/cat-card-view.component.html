@@ -1,0 +1,11 @@
+<ng-container *ngIf="cats">
+    <div class="card" style="width: 18rem;" *ngFor="let item of cats; let i=index">
+        <img [src]="item.url" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kot #{{i+1}}</h5>
+          <a href="#" class="btn btn-primary">Polub</a>
+        </div>
+    </div>
+</ng-container>
+
+

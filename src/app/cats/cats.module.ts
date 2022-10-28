@@ -7,6 +7,7 @@ import { CatsViewComponent } from './containers/cats-view/cats-view.component';
 import { CatListComponent } from './components/cat-list/cat-list.component';
 import { CatDetailsComponent } from './components/cat-details/cat-details.component';
 import { CatEditorComponent } from './components/cat-editor/cat-editor.component';
+import { CatCardViewComponent } from './components/cat-list/cat-card-view/cat-card-view.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CatEditorComponent } from './components/cat-editor/cat-editor.component
     CatsViewComponent,
     CatListComponent,
     CatDetailsComponent,
-    CatEditorComponent
+    CatEditorComponent,
+    CatCardViewComponent
   ],
   imports: [
     CommonModule,
